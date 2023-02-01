@@ -73,6 +73,9 @@
     "validate-commit-msg": "^2.6.1",
     "webpack": "^2.7.0"
   },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -80,5 +83,9 @@
     "validate-commit-msg": {
       "helpMessage": "\nThis project uses commitizen to document changes. Please try:\nnpm install commitizen -g && git cz\n"
     }
+  },
+  "volta": {
+    "node": "16.13.0",
+    "npm": "8.1.3"
   }
 }
